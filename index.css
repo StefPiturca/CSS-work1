@@ -1,0 +1,40 @@
+.link {
+    color:red
+}
+.goog {
+    color:green;
+}
+h3:first-child {
+    color:red;
+}
+div:first-child {
+    color:red;
+}
+p:first-child {
+    color:red;
+}
+p:last-of-type {
+    color:blue;
+}
+p:last-child {
+    color:red;
+}
+.fourth {
+    color:red;
+}
+.fifth {
+    color:blue;
+}
+.sixth {
+    color:red;
+}
+::after .second div {
+    additive-symbols: div;
+    color:yellow;
+}
+.ref {
+    color:yellow;
+ }
+.tenth:hover {
+    font-style:italic;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced CSS - Assignment 1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <style>
+        .link {
+    color:red
+}
+.goog {
+    color:green;
+}
+h3:first-child {
+    color:red;
+}
+div:first-child {
+    color:red;
+}
+p:first-child {
+    color:red;
+}
+p:last-of-type {
+    color:blue;
+}
+p:last-child {
+    color:red;
+}
+.fourth {
+    color:red;
+}
+.fifth {
+    color:blue;
+}
+.sixth {
+    color:red;
+}
+::after .second div {
+    additive-symbols: div;
+    color:yellow;
+}
+.ref {
+    color:yellow;
+ }
+.tenth:hover {
+    font-style:italic;
+}
+</style>
+    <h1>Main Heading</h1>
+    <p>Paragraph 1</p>
+    <a href="https://www.google.com/" target="_blank" class="goog">Google</a>
+    <a href="https://www.google.com/doodles"  target="_blank" class="goog">Google Doodles</a>
+    <a href="https://www.link-group.eu/" target="_blank" class="link">Goto Link Group</a>
+    <div id="first-div">
+        <h2>Subheading</h2>
+        <p class="second">Paragraph 2</p>
+        <span class="ref">New</span>
+        <p>Paragraph 3</p>
+        <div id="second-div">
+            <h3>Sub subheading</h3>
+            <p class="fourth">Paragraph 4</p>
+            <p class="fifth">Paragraph 5</p>
+           <p class="sixth">Paragraph 6</p>
+            <p>Paragraph 7</p>
+        <p>Paragraph 8</p>
+        </div>
+    </div>
+    <p>Paragraph 9</p>
+    <p class="tenth">Paragraph 10</p>
+</body>
+
+</html>
